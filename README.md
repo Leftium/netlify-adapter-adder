@@ -1,7 +1,7 @@
 <h1 align="center">🌐 Deploy SvelteKit to Netlify</h1>
 
 ## ❓ What is this?
-This is an **experimental** command to run to add the netlify-adapter to your SvelteKit project.
+This is an **experimental** command to add the netlify-adapter to your SvelteKit project.
 
 ## 🧰 Adding to SvelteKit
 You must start with a fresh copy of the official SvelteKit template, which is currently created by running this command:
