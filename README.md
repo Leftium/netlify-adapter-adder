@@ -1,4 +1,4 @@
-<h1 align="center">☕ Deploy SvelteKit to Netlify</h1>
+<h1 align="center">🌐 Deploy SvelteKit to Netlify</h1>
 
 ## ❓ What is this?
 This is an **experimental** command to run to add CoffeeScript to your SvelteKit project.
