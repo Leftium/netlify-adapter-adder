@@ -1,7 +1,7 @@
 <h1 align="center">🌐 Deploy SvelteKit to Netlify</h1>
 
 ## ❓ What is this?
-This is an **experimental** command to run to add CoffeeScript to your SvelteKit project.
+This is an **experimental** command to run to add the netlify-adapter to your SvelteKit project.
 
 ## 🧰 Adding to SvelteKit
 You must start with a fresh copy of the official SvelteKit template, which is currently created by running this command:
@@ -9,7 +9,7 @@ You must start with a fresh copy of the official SvelteKit template, which is cu
 npm init svelte@next
 ```
 
-Once that is set up, run this command in your project directory to set up CoffeeScript:
+Once that is set up, run this command in your project directory to set up the netlify-adapter:
 ```sh
 npx svelte-add Leftium/netlify-adapter-adder
 ```
@@ -18,7 +18,7 @@ npx svelte-add Leftium/netlify-adapter-adder
 After the adder runs,
 * You can deploy to Netlify.
 
-* You can apply *another* [Svelte Adder](https://github.com/svelte-add/svelte-adders) to your project for more functionality. **Note:** some adders (specifically postcss and bulma) overwrite sveltePrepocess() options. Ensure the required options are set by either running coffeescript-adder last, or running it again after adding postcss/bulma (coffeescript-adder preserves the options).
+* You can apply *another* [Svelte Adder](https://github.com/svelte-add/svelte-adders) to your project for more functionality.
 
 ## 😵 Help! I have a question
 [Create an issue](https://github.com/Leftium/netlify-adapter-adder/new) and I'll try to help.
